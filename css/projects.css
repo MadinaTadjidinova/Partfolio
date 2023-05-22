@@ -1,0 +1,64 @@
+/* projects */
+.projects {
+    padding-top: 100px;
+}
+
+.projects .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    color: #fad02c;
+    text-shadow: 0 0 22px yellow;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #101010;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #ffff00;
+}
+
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p {
+    color: rgba(253, 255, 204, 0.8);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #ffff00;
+    cursor: pointer;
+    color: #fff;
+}
